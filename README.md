@@ -6,6 +6,9 @@
 
 Пояснения к решениям:   
 
-3.
-	3.1 ```docker pull alpine``` загрузить базовый образ (маленький размер файла)
+3.  
+	1. ```docker pull alpine``` - загрузить базовый образ (маленький размер файла)    
+	2. ```touch Dockerfile``` - создать ```Dockerfile```  
+	3. ```vim Dockerfile``` - редактируем ```Dockerfile```   
+	4. ```docker build -t alpine_with_vim``` - создать пользовательский образ  
 
